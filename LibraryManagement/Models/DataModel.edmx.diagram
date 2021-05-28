@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f0c8d87bad754639a6d9c2f4029a082c" Name="Diagram1">
+        <EntityTypeShape EntityType="LibraryManagementModel.Author" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.BillBorrow" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.BillReturn" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Book" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Category" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.DetailBillBorrow" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.DetailBillReturn" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Paramater" Width="1.5" PointX="2.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Payment" Width="1.5" PointX="3" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Permission" Width="1.5" PointX="5.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Publisher" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Reader" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Staff" Width="1.5" PointX="8" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.TypeReader" Width="1.5" PointX="1.5" PointY="15" IsExpanded="true" />
+        <AssociationConnector Association="LibraryManagementModel.FK__BillBorro__idRea__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__DetailBil__idBil__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__DetailBil__idBil__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__BillRetur__idRea__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__DetailBil__idBil__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__Book__idCategory__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__Book__idPublishe__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__DetailBil__idBoo__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__DetailBil__idBoo__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__Payment__idReade__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__Staff__idPermiss__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK__Reader__idTypeRe__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.Compose" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="LibraryManagementModel.grade" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="LibraryManagementModel.pupil" Width="1.5" PointX="14.875" PointY="6.125" />
+        <EntityTypeShape EntityType="LibraryManagementModel.rule" Width="1.5" PointX="12.625" PointY="7.5" />
+        <EntityTypeShape EntityType="LibraryManagementModel.teacher" Width="1.5" PointX="10.375" PointY="3.5" />
+        <EntityTypeShape EntityType="LibraryManagementModel.theclass" Width="1.5" PointX="12.625" PointY="2.875" />
+        <EntityTypeShape EntityType="LibraryManagementModel.transgress_class" Width="1.5" PointX="14.875" PointY="2.5" />
+        <EntityTypeShape EntityType="LibraryManagementModel.transgress_pupil" Width="1.5" PointX="17.125" PointY="6.375" />
+        <AssociationConnector Association="LibraryManagementModel.FK__theclass__grade___5AEE82B9" />
+        <AssociationConnector Association="LibraryManagementModel.FK__pupil__class_id__5535A963" />
+        <AssociationConnector Association="LibraryManagementModel.FK__transgres__pupil__5629CD9C" />
+        <AssociationConnector Association="LibraryManagementModel.FK__transgres__rule___571DF1D5" />
+        <AssociationConnector Association="LibraryManagementModel.FK__transgres__rule___59063A47" />
+        <AssociationConnector Association="LibraryManagementModel.FK__theclass__teache__59FA5E80" />
+        <AssociationConnector Association="LibraryManagementModel.FK__transgres__class__5812160E" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
